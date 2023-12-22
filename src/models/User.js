@@ -20,7 +20,31 @@ const userSchema = new Schema(
     resetTokenExpiry:{
       type: Date,
       required: false,
-    }
+    },
+    bio: {
+      type: String,
+      required: false,
+    },
+    phone_number: {
+      type: String,
+      required: false,
+    },
+    address: {
+      type: String,
+      required: false,
+    },
+    city: {
+      type: String,
+      required: false,
+    },
+    state: {
+      type: String,
+      required: false,
+    },
+    image: {
+      type: String, // Assuming storing the image path as a string
+      required: false,
+    },
   },
   { timestamps: true }
 );
