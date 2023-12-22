@@ -1,4 +1,4 @@
-// File: D:\react-hobby-projects\New folder\New folder\next-auth-mongodb\src\app\page.tsx
+// File: D:\react-hobby-projects\New folder\New folder\New folder\Auth-Dashboard-nextjs\src\app\page.tsx
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

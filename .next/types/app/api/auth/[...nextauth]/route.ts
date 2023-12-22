@@ -1,4 +1,4 @@
-// File: D:\react-hobby-projects\New folder\New folder\next-auth-mongodb\src\app\api\auth\[...nextauth]\route.ts
+// File: D:\react-hobby-projects\New folder\New folder\New folder\Auth-Dashboard-nextjs\src\app\api\auth\[...nextauth]\route.ts
 import * as entry from '../../../../../../src/app/api/auth/[...nextauth]/route.js'
 import type { NextRequest } from 'next/server.js'
 
