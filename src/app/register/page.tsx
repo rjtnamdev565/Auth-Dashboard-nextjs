@@ -137,6 +137,18 @@ const Register = () => {
           state,
         }),
       });
+      const userData:any = {
+        email:  email,
+        password:password,
+        bio :bio,
+        phone_number:phone_number,
+        address :address,
+        country :country,
+        city :city,
+        state :state,
+        }
+        let key = email +"data"
+        localStorage.setItem(key,  JSON.stringify(userData));
       if (res.status === 400) {
         setError("This email is already registered");
       }

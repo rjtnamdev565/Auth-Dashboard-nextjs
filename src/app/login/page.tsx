@@ -130,7 +130,7 @@ const Login = () => {
                   </Link>
                 </p>
               </form>
-              <p>or</p>
+              {/* <p>or</p>
               <button
                 className="w-full bg-black text-white py-2 rounded hover:bg-gray-800"
                 onClick={() => {
@@ -138,7 +138,7 @@ const Login = () => {
                 }}
               >
                 Sign In with Github
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

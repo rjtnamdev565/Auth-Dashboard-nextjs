@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { signIn, useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
+import UserProfile from "../user-profile/page";
+import withAuth from "@/utils/session";
 
 const Dashboard = () => {
   const router = useRouter();
@@ -11,9 +13,9 @@ const Dashboard = () => {
   const { data: session, status: sessionStatus } = useSession();
   const [images, setImages] = useState([]);
   useEffect(() => {
-    if (!session) {
-      router.replace("/");
-    }
+    // if (!session) {
+    //   router.replace("/");
+    // }
 
     const fetchRandomImages = async () => {
       try {
@@ -94,4 +96,4 @@ const Dashboard = () => {
 
 
 
-export default Dashboard;
+export default withAuth(Dashboard);
